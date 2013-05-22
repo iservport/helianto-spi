@@ -6,6 +6,10 @@
 	<version>0.3.7.3.SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding> 
+	</properties>
+	
 	<dependencies>
 		<!-- test bundles -->
 		<dependency>
@@ -66,4 +70,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 </project>

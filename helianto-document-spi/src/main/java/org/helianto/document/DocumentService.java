@@ -1,7 +1,6 @@
 package org.helianto.document;
 
 import org.helianto.document.model.FolderModel;
-import org.helianto.process.model.ProcessDocumentModel;
 
 /**
  * Interface remota para serviços relacionados a documentos.
