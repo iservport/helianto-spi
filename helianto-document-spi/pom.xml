@@ -18,4 +18,12 @@
 		<finalName>helianto-document-spi</finalName>
 	</build>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.helianto</groupId>
+			<artifactId>helianto-partner-spi</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+	
 </project>
