@@ -9,12 +9,7 @@ import java.util.Locale;
  * @author mauriciofernandesdecastro
  */
 public interface PublicEntityModel 
-	extends ContextModel {
-	
-	/**
-	 * Entity alias.
-	 */
-	String getAlias();
+	extends EntityModel {
 	
 	/**
 	 * Locale.

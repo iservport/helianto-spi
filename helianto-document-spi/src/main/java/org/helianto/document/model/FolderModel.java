@@ -1,23 +1,16 @@
 package org.helianto.document.model;
 
+import org.helianto.core.model.EntityModel;
+
 
 /**
  * Folder model.
  * 
  * @author mauriciofernandesdecastro
  */
-public interface FolderModel {
+public interface FolderModel 
+	extends EntityModel {
 	
-	/**
-	 * Context key.
-	 */
-	String getContextName();
-	
-	/**
-	 * Entity key.
-	 */
-	String getAlias();
-
 	/**
 	 * Folder code.
 	 */
