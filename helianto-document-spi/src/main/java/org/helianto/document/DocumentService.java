@@ -1,5 +1,7 @@
 package org.helianto.document;
 
+import java.util.List;
+
 import org.helianto.document.model.FolderModel;
 
 /**
@@ -16,6 +18,13 @@ public interface DocumentService {
 	 * @param folderCode
 	 */
 	FolderModel findFolder(String entityAlias, String folderCode);
+	
+	/**
+	 * Find folder.
+	 * 
+	 * @param entityAlias
+	 */
+	List<FolderModel> findFolder(String entityAlias);
 	
 	/**
 	 * Create folder.
