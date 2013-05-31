@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.helianto</groupId>
 	<artifactId>helianto-spi</artifactId>
-	<version>0.3.7.3.SNAPSHOT</version>
+	<version>0.3.7.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
 	<properties>
@@ -52,9 +52,7 @@
 		<module>helianto-core-spi</module>
 		<module>helianto-partner-spi</module>
 		<module>helianto-document-spi</module>
-		<module>helianto-finance-spi</module>
 		<module>helianto-resource-spi</module>
-		<module>helianto-process-spi</module>
 		<module>helianto-inventory-spi</module>
 	</modules>
 	

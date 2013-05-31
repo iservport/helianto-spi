@@ -1,4 +1,4 @@
-package org.helianto.process.model;
+package org.helianto.document.model;
 
 public interface ProcessDocumentModel {
 	

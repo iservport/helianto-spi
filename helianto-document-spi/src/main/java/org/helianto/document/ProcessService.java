@@ -1,6 +1,6 @@
-package org.helianto.process;
+package org.helianto.document;
 
-import org.helianto.process.model.ProcessDocumentModel;
+import org.helianto.document.model.ProcessDocumentModel;
 
 /**
  * Remote service interface to process.
