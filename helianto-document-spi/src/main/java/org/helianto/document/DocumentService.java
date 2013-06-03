@@ -20,11 +20,11 @@ public interface DocumentService {
 	FolderModel findFolder(String entityAlias, String folderCode);
 	
 	/**
-	 * Find folder.
+	 * Find folder codes list.
 	 * 
 	 * @param entityAlias
 	 */
-	List<FolderModel> findFolder(String entityAlias);
+	List<String> findFolder(String entityAlias);
 	
 	/**
 	 * Create folder.
