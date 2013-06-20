@@ -14,24 +14,24 @@ public interface DocumentService {
 	/**
 	 * Find folder.
 	 * 
-	 * @param entityAlias
+	 * @param accessToken
 	 * @param folderCode
 	 */
-	FolderModel findFolder(String entityAlias, String folderCode);
+	FolderModel findFolder(String accessToken, String folderCode);
 	
 	/**
 	 * Find folder codes list.
 	 * 
-	 * @param entityAlias
+	 * @param accessToken
 	 */
-	List<String> findFolder(String entityAlias);
+	List<String> findFolder(String accessToken);
 	
 	/**
 	 * Create folder.
 	 * 
+	 * @param accessToken
 	 * @param folder
-	 * @param auth
 	 */
-	int createFolder(FolderModel folder, String auth);
+	int createFolder(String accessToken, FolderModel folder);
 	
 }
